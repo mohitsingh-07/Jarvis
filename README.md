@@ -1,1 +1,3 @@
 # Jarvis
+
+Jarvis is assisting tool , which assists user in different applications...
