@@ -33,7 +33,6 @@ def processCommand(c):
             pyautogui.sleep(0.3)
             app = app.replace('open', "")
             pyautogui.typewrite(app)
-
             pyautogui.sleep(1)
             pyautogui.press('enter')
 
@@ -45,11 +44,7 @@ def processCommand(c):
             pyautogui.typewrite(app)
             pyautogui.sleep(1)
             pyautogui.press('enter')
-
-
             pyautogui.sleep(1)
-
-
             pyautogui.moveTo(1344,9,duration=1)
             pyautogui.click()
             
